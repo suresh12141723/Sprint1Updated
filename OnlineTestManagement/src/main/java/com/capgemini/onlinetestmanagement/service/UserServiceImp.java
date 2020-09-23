@@ -17,17 +17,10 @@ public class UserServiceImp implements UserService{
  
 	LocalDate datee;
 	
-//	@Autowired
-//	private UserDaoI assignExamToUserDaoI;
-	
-//	@Autowired
-//	private ExamDaoI examDaoI;
-	
 	@Autowired
 	private UserDaoI userDaoI;
 	
 	
-
 	@Override
 	public boolean addUser(User user) {
 		userDaoI.save(user);
