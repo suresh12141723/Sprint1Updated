@@ -23,11 +23,6 @@ class OnlineTestManagementApplicationTests {
 	@Autowired
 	private UserDaoI userDao;
 	
-//	@Autowired
-//	private ExamDaoI examDaoI;
-//	
-//	@Autowired
-//	private UserDaoI userDaoI;
 	
 	@Autowired
 	private UserServiceImp userServiceImpl;
